@@ -1,4 +1,4 @@
-FROM mhart/alpine-node:6.0.0
+FROM mhart/alpine-node:6.1.0
 
 ENV \
   GULP_VERSION=3.9.1 \
