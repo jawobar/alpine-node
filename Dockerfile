@@ -1,8 +1,8 @@
-FROM mhart/alpine-node:6.1.0
+FROM mhart/alpine-node:6.2.1
 
 ENV \
   GULP_VERSION=3.9.1 \
-  TYPINGS_VERSION=0.8.1
+  TYPINGS_VERSION=1.0.4
 
 RUN npm install -g \
   gulp@${GULP_VERSION} \
